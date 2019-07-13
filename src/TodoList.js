@@ -1,14 +1,11 @@
 import React from 'react';
 
-
-
 const TodoList = () => {
     return (
-        <div>Todolist</div>
+        <div>
+            <h1>Todo List!</h1>
+        </div>
     )
 }
-
-
-
 
 export default TodoList;
