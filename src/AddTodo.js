@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import uuid from 'uuid';
 
 class AddTodo extends Component {
     state = {
-        id: 1,
+        id: '',
         content: "",
         complete: false,
     }
     handleOnChange = (e) => {
         this.setState({
+            id: uuid(),
             content: e.target.value
         })
     }
